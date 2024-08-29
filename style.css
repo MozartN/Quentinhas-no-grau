@@ -1,0 +1,58 @@
+/* Adiciona um gradiente de fundo à página */
+body {
+    background: linear-gradient(135deg, #f06, #ffcc00);
+    font-family: Arial, sans-serif;
+}
+
+/* Centraliza o conteúdo e define uma largura máxima */
+.page {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Estiliza o cartão para centralizar o conteúdo e definir margens */
+.cartao {
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Remove as margens e os preenchimentos padrão do formulário */
+.formulario {
+    margin: 0;
+    padding: 0;
+}
+
+/* Define o layout flexível para os itens do menu */
+.navbar {
+    margin-bottom: 20px;
+}
+
+/* Estiliza as imagens para se alinharem lado a lado e adiciona espaçamento */
+.navbar img {
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 100%;
+    max-width: 302px;
+}
+
+/* Adiciona efeito de hover nas imagens */
+.navbar img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Estiliza o título e a descrição */
+h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+p {
+    margin-bottom: 20px;
+    color: #666;
+}
